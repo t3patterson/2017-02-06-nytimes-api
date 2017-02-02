@@ -1,6 +1,42 @@
 *{ box-sizing: border-box }
 
 img {
-   width: 100%;
+   width: 140px;
+	margin: auto;
    display: block;
+}
+
+body{
+   background: #333;
+   margin: 0;
+   font-family: 'Playfair Display', sans-serif;
+}
+
+#app-container{
+   max-width: 800px;
+   margin: 0 auto;
+   background: #EEEEEE;
+   min-height: 100vh;
+
+}
+
+
+h1 {
+   margin: 0;
+	padding: 20px;
+	font-size: 48px;
+	background: #fff;
+}
+hr{margin:0;}
+.stories-container{
+	text-align: center
+}
+.story{
+	text-align: left;
+	max-width: 300px;
+	vertical-align: top;
+	display: inline-block;
+	background: #fff;
+	padding: 15px;
+	margin: 10px;
 }
